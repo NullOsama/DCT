@@ -22,12 +22,19 @@ Encoding part:
 
 
 Decoding Part:
+
 1 Reconstruct the reuduced vectors to set of fixed size (of length 64) vectors
+
 2 Use Run-Length to decode each vector into 2D block of size 8 by 8
+
 3 Dequantize each block by maltiplying with the quantization matrix
+
 4 Apply inverse descrete cosine transform on each block
+
 5 Combine The 8 by 8 Blocks into One image
+
 6 Shift the pixels by 128 so the pixel range is (0, 256)
+
 7 First we transform the image to RGB colour space
 
 ## Note:
