@@ -23,5 +23,5 @@ Decoding Part:
 7 First we transform the image to RGB colour space
 
 ## Note:
-You can control the compression ratio by setting the quantization factor where higher values mean higher compression rate but lower quality.
+You can control the compression ratio by setting the quantization factor, where higher values mean higher compression rate but lower quality.
 
