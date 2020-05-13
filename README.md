@@ -22,6 +22,6 @@ Decoding Part:
 6 Shift the pixels by 128 so the pixel range is (0, 256)
 7 First we transform the image to RGB colour space
 
-##Note:
+## Note:
 You can control the compression ratio by setting the quantization factor where higher values mean higher compression rate but lower quality.
 
