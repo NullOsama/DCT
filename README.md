@@ -5,13 +5,21 @@ Image compressor using Discrete cosine transform DCT
 Encode-Decode Algorithm:
 
 Encoding part:
+
 1 First we transform the image to YCbCr colour space
+
 2 Shift the pixels by 128 so the pixel range is (-128, 128)
+
 3 Divide the image to set of 8 by 8 blocks so we can apply discrete cosine transform on each block
+
 4 Apply discrete cosine transform on the blocks
+
 5 Quantize each block by dividing it by the Quantization matrix
+
 6 Use Run-Length encoding on each block to trnasfare them into encoded vectors
+
 7 Reduce the size of these vectors by trimming the zeros at the end of each on.
+
 
 Decoding Part:
 1 Reconstruct the reuduced vectors to set of fixed size (of length 64) vectors
