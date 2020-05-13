@@ -2,9 +2,9 @@
 Image compressor using Discrete cosine transform DCT
 
 
-### Encode-Decode Algorithm:
+## Encode-Decode Algorithm:
 
-# Encoding part:
+### Encoding part:
 
 1 First we transform the image to YCbCr colour space
 
@@ -21,7 +21,7 @@ Image compressor using Discrete cosine transform DCT
 7 Reduce the size of these vectors by trimming the zeros at the end of each on.
 
 
-# Decoding Part:
+### Decoding Part:
 
 1 Reconstruct the reuduced vectors to set of fixed size (of length 64) vectors
 
